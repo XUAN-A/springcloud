@@ -1,0 +1,17 @@
+package com.axuan.springcloud;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+/**
+ * @author axuan
+ * @date 2022/4/18 上午9:47
+ */
+@EnableDiscoveryClient
+@SpringBootApplication
+public class OrderNacosMain83 {
+    public static void main(String[] args) {
+        SpringApplication.run(OrderNacosMain83.class, args);
+    }
+}
